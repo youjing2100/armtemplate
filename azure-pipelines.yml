@@ -7,11 +7,14 @@ trigger:
 - master
 
 pool:
+  vmImage: 'ubuntu-latest'
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
