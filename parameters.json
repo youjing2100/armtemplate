@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value":null
+        },
+        "storAcc": {
+            "value":null
+        },
+        "vNetName": {
+            "value":null
+        },
+        "nicName": {
+            "value":null
+        },
+        "location" : {
+            "value":null
+        },
+        "publicIPName": {
+            "value":null
+        },
+        "adminUser" : {
+            "value":null
+        },
+        "adminPassword" : {
+            "value":null
+        }
+    }
+}
